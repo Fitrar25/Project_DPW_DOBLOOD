@@ -1,0 +1,47 @@
+@media screen and (min-width:992px) {
+    .navbar{
+        padding: 0;
+    }
+    .navbar .navbar-nav .nav-item{
+        padding: 1em 0;
+    }
+    .navbar .navbar-nav .nav-item{
+        margin: 0 1em;
+    }
+}
+
+.navbar .navbar-nav .nav-item{
+    position: relative;
+}
+.navbar .navbar-nav .nav-item::after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    content: '';
+    background-color: #eb0000;
+    width: 0%;
+    height: 4px;
+    transition: 0.5s;
+
+}
+.navbar .navbar-nav .nav-item:hover::after{
+        width: 100%;
+}
+.home{
+    background-image: url(../images/DOBLOOD.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-left: 9%;
+
+}
+.jarak{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.futer a{
+    color: white;
+    text-decoration: none;
+}
